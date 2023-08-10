@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(buttonText.equals("="))
         {
             solutionTV.setText(resultTv.getText());
+            return;
         }
         
         if(buttonText.equals("C"))
